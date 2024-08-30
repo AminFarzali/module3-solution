@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff; /* White background for content area */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+}
+
+/* Header Styles */
+.navbar {
+    background-color: #333; /* Dark gray background for the header */
+    padding: 10px 20px;
+    color: #ffffff; /* White text for the header */
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Menu Section Styles */
+.menu-section {
+    margin-top: 20px;
+    background-color: #f9f9f9; /* Very light gray background for the menu section */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+.menu-section h1 {
+    color: #333; /* Dark gray for main heading */
+    text-align: center;
+}
+
+.menu-section h2 {
+    color: #555; /* Slightly lighter gray for subheadings */
+    margin-top: 20px;
+}
+
+.menu-section p {
+    color: #666; /* Medium gray for paragraph text */
+    line-height: 1.5;
+    margin-top: 10px;
+}
