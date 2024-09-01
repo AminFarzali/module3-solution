@@ -1,53 +1,73 @@
-/* General Styles */
+/* Custom Styles */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #eaeaea; /* Light gray background */
+    background-color: #f8f9fa;
     margin: 0;
     padding: 0;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: #ffffff; /* White background for content area */
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
-}
-
-/* Header Styles */
 .navbar {
-    background-color: #333; /* Dark gray background for the header */
-    padding: 10px 20px;
-    color: #ffffff; /* White text for the header */
-    text-align: center;
+    background-color: #6c757d;
+    border-radius: 0;
+    border: none;
 }
 
-.logo {
+.navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-collapse ul li a {
+    color: #fff !important;
+    background-color: #343a40;
+    text-align: center;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 36px;
+    color: #343a40;
+}
+
+.menu-section {
+    background-color: #dee2e6;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.menu-section h2 {
+    color: #343a40;
     font-size: 24px;
     font-weight: bold;
 }
 
-/* Menu Section Styles */
-.menu-section {
-    margin-top: 20px;
-    background-color: #f9f9f9; /* Very light gray background for the menu section */
-    padding: 20px;
-    border: 1px solid #ddd; /* Light gray border */
-}
-
-.menu-section h1 {
-    color: #333; /* Dark gray for main heading */
-    text-align: center;
-}
-
-.menu-section h2 {
-    color: #555; /* Slightly lighter gray for subheadings */
-    margin-top: 20px;
-}
-
 .menu-section p {
-    color: #666; /* Medium gray for paragraph text */
+    color: #495057;
     line-height: 1.5;
-    margin-top: 10px;
+}
+
+.back-to-top {
+    margin: 20px 0;
+}
+
+.back-to-top a {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.back-to-top a:hover {
+    background-color: #0056b3;
+    text-decoration: none;
 }
